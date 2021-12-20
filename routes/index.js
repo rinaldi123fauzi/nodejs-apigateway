@@ -39,3 +39,6 @@ router.post('/register', (req, res) => {
 })
 
 module.exports = router
+
+
+// curl -X POST -d '{"apiName": "registryTest","host": "http://localhost", "port": "5001","url": "http://localhost:5001/"}' -H 'Content-Type: application/json' http://localhost:5000/register
