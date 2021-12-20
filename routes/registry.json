@@ -1,1 +1,7 @@
-{"services":{"testapi":{"apiName":"testapi","host":"http://localhost","port":5001,"url":"http://localhost:5001/"},"registryTest":{"apiName":"registryTest","host":"http://localhost","port":"5001","url":"http://localhost:5001/"},"budiTest":{"apiName":"budiTest","host":"http://localhost","port":"5001","url":"http://localhost:5001/"}}}
+{"services":{"registryTest":{"apiName":"registryTest","protocol":"http","host":"http://localhost","port":5001,"url":"http://http://localhost:5001/"}}}
+
+
+
+
+
+// curl -X POST -d '{"apiName": "registryTest","host": "http://localhost", "port": "5001","url": "http://localhost:5001/"}' -H 'Content-Type: application/json' http://localhost:5000/register
